@@ -46,15 +46,22 @@ Plots are generated with matplotlib and saved in `results/`.
 
 ## How to Run
 
-### 1) Set up the environment
-Python **3.9+** recommended.
+## Requirements
+- Python **3.9+**
+- `pip` for installing dependencies
+
+## Quick start
 
 ```bash
-# from the project root (this folder)
+# 1) (optional) create a virtual environment
 python -m venv .venv
 
-# activate:
-# macOS/Linux:
+# 2) activate it
+# macOS / Linux:
 source .venv/bin/activate
 
+# 3) install dependencies
 pip install -r requirements.txt
+
+# 4) run the analysis from the project root
+python src/main.py
